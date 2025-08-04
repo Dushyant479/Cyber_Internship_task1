@@ -11,8 +11,6 @@ The objective of this task was to learn how to discover open ports on devices wi
 1. Identified my local network IP range as `192.168.29.0/24` using `ipconfig`.
 2. Performed a TCP SYN scan on the local network using the command:  
 nmap -sS 192.168.29.0/24 -oN scan_results.txt
-
-text
 3. Saved and analyzed the scan results.
 4. Captured network traffic during the scan using Wireshark to observe the scan packets and corresponding responses.
 5. Saved a packet capture file (`task1.pcapng`) and took screenshots for documentation.
