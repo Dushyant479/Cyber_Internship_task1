@@ -1,0 +1,49 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-04 16:27 IST
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.0054s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: F0:ED:B8:AF:0A:74 (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.29.35
+Host is up (0.011s latency).
+All 1000 scanned ports on 192.168.29.35 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 02:55:28:F3:9D:01 (Unknown)
+
+Nmap scan report for 192.168.29.203
+Host is up (0.0074s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT  STATE    SERVICE
+7/tcp filtered echo
+MAC Address: C8:9F:0C:7F:AE:53 (Motorola Mobility, a Lenovo Company)
+
+Nmap scan report for 192.168.29.208
+Host is up (0.0019s latency).
+All 1000 scanned ports on 192.168.29.208 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: 00:41:0E:14:B0:A9 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.29.222
+Host is up (0.014s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: D4:F3:2D:FF:03:E8 (Intel Corporate)
+
+Nmap scan report for 192.168.29.20
+Host is up (0.0000070s latency).
+All 1000 scanned ports on 192.168.29.20 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 50.80 seconds
+
