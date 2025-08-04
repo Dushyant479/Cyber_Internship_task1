@@ -25,4 +25,4 @@ text
 - Several devices had no open ports or were filtered, indicating a limited exposure and good network security practices.
 
 ## Wireshark Analysis
-The Wireshark capture shows TCP SYN packets sent by Nmap and the corresponding SYN-ACK or RST responses from devices. This validates the status of ports as open, closed, or filtered. The included screenshot (`wireshark_screenshot.png`) in the screenshot directory provides visual evidence of this packet exchange.
+The Wireshark capture shows TCP SYN packets sent by Nmap and the corresponding SYN-ACK or RST responses from devices. This validates the status of ports as open, closed, or filtered. The included screenshot provides visual evidence of this packet exchange.
